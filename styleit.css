@@ -1,0 +1,114 @@
+*{
+	text-decoration: none;
+}
+
+body{
+	background-image: url("images\\body-bg.png")
+}
+
+nav{
+	width:100%;
+	height:100px;
+}
+
+ul li{
+	list-style: none;
+	transition: 0.8;
+	display: inline-block;
+}
+
+ul li a{
+	display: block;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: bold;
+	color: #fff;
+	padding: 0 10px;
+	width: 150px;
+	height: 40px;
+	margin: 0px;
+/*	float: left;*/
+	text-align: center;
+	line-height: 40px;
+	display: block; 
+	transition: 0.8;
+}
+
+ul li a:hover {
+	background-color: #458585;
+	color: #eee;
+	transition: 0.8;
+}
+
+.content{
+	background-color: #232b2b;
+	max-width: 1200px;
+	margin: auto;
+	padding: 10px;
+	overflow: hidden;
+	border-style: groove;
+}
+
+.ma-in{
+	padding: 10px;
+	border: 2px solid;
+
+}
+
+.alignment{
+	float: right;
+	padding: 10px;
+}
+.title {
+	display: inline;
+	vertical-align: top;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 15%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+.footer2{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 15%;
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+.gta{
+	align-items: center;
+}
+
+.badlo{
+	margin: 30px;
+	border: 2px solid;
+	margin: 50px;
+	border: 2px solid;
+}
+
+ul li ul li{
+	display: none;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+
+.center {
+  margin: auto;
+}
+.maintab{
+	transition: 0.8;
+}
+.homie{
+	text-align: center;
+}
