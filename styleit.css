@@ -43,10 +43,9 @@ ul li a:hover {
 
 .content{
 	background-color: #232b2b;
-	max-width: 1200px;
+	width: 1200px;
 	margin: auto;
 	padding: 10px;
-	overflow: hidden;
 	border-style: groove;
 }
 
