@@ -42,7 +42,7 @@ ul li a:hover {
 }
 
 .content{
-	background-color: #008080;
+	background-color: #232b2b;
 	width: 1200px;
 	margin: auto;
 	padding: 10px;
@@ -104,10 +104,47 @@ ul li:hover ul li{
 
 .center {
   margin: auto;
-}
+/*  display: table;
+*/}
+
 .maintab{
 	transition: 0.8;
 }
+
 .homie{
 	text-align: center;
+}
+
+.pagination{
+	display: table;
+	align-content: center;
+	padding: 50px;
+}
+
+.pagination a{
+/*	float: left;*/
+	padding: 8px 16px;
+	text-decoration: none;
+	border: 1px solid #008080;
+	color: #eee;
+}
+
+.pagination a.active{
+	background-color: #008080;
+	border: 1px solid #008080;
+	color: white;
+}
+
+.pagination a:hover:not(.active) {
+	background-color: #000000;
+}
+
+.pagiantion a:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.pagiantion a:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
