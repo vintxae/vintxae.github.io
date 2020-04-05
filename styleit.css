@@ -36,13 +36,13 @@ ul li a{
 }
 
 ul li a:hover {
-	background-color: #458585;
+	background-color: #008080;
 	color: #eee;
 	transition: 0.8;
 }
 
 .content{
-	background-color: #232b2b;
+	background-color: #008080;
 	width: 1200px;
 	margin: auto;
 	padding: 10px;
