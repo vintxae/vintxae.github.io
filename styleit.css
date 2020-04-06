@@ -148,3 +148,8 @@ ul li:hover ul li{
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 }
+
+.noofpg{
+	text-align: center;
+	background-color: #008080;
+}
