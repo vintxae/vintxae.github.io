@@ -1,0 +1,6 @@
+ 					<div class="footer">
+						my footer
+					</div>
+					<div class="footer2">
+						my fotter 2
+					</div>
