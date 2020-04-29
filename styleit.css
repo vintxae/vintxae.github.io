@@ -23,12 +23,11 @@ ul li a{
 	font-size: 17px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: bold;
-	color: #fff;
+	color: #F0E68C;
 	padding: 0 10px;
 	width: 150px;
 	height: 40px;
 	margin: 0px;
-/*	float: left;*/
 	text-align: center;
 	line-height: 40px;
 	display: block; 
@@ -67,10 +66,6 @@ ul li a:hover {
 
 }
 
-.alignment{
-	float: right;
-	padding: 10px;
-}
 .title {
 	display: inline;
 	vertical-align: top;
@@ -100,10 +95,7 @@ ul li a:hover {
 }
 
 .badlo{
-	margin: 30px;
-	border: 2px solid;
 	margin: 50px;
-	border: 2px solid;
 }
 
 ul li ul li{
@@ -116,6 +108,19 @@ ul li:hover ul li{
 
 .center {
  	margin: auto;
+}
+
+.tile-desc {
+ 	text-align: center;
+ 	color:white;
+}
+
+.tile-desc:hover {
+	display: block;
+}
+
+.tile-image {
+	border: 2px solid  #008080;
 }
 
 .maintab{
@@ -169,4 +174,9 @@ ul li:hover ul li{
 .bich{
 	align: center;
 	font-size: 20px;
+}
+
+.disclaimer{
+	color: red;
+	text-align: center;
 }
