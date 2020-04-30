@@ -112,7 +112,7 @@ ul li:hover ul li{
 
 .tile-desc {
  	text-align: center;
- 	color:white;
+ 	color:	#F0E68C;
 }
 
 .tile-desc:hover {
@@ -179,4 +179,5 @@ ul li:hover ul li{
 .disclaimer{
 	color: red;
 	text-align: center;
+	font-family: arial;
 }
