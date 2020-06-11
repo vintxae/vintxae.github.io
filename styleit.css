@@ -23,12 +23,11 @@ ul li a{
 	font-size: 17px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-style: bold;
-	color: #fff;
+	color: #F0E68C;
 	padding: 0 10px;
 	width: 150px;
 	height: 40px;
 	margin: 0px;
-/*	float: left;*/
 	text-align: center;
 	line-height: 40px;
 	display: block; 
@@ -41,12 +40,24 @@ ul li a:hover {
 	transition: 0.8;
 }
 
+.btn{
+	background-color: DodgerBlue;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+}
+
 .content{
 	background-color: #232b2b;
 	width: 1200px;
 	margin: auto;
 	padding: 10px;
 	border-style: groove;
+	color: #F0E68C;
+	font-family: Arial, Helvetica, sans-serif;	
 }
 
 .ma-in{
@@ -55,10 +66,6 @@ ul li a:hover {
 
 }
 
-.alignment{
-	float: right;
-	padding: 10px;
-}
 .title {
 	display: inline;
 	vertical-align: top;
@@ -88,10 +95,7 @@ ul li a:hover {
 }
 
 .badlo{
-	margin: 30px;
-	border: 2px solid;
 	margin: 50px;
-	border: 2px solid;
 }
 
 ul li ul li{
@@ -103,16 +107,24 @@ ul li:hover ul li{
 }
 
 .center {
-  margin: auto;
-/*  display: table;
-*/}
+ 	margin: auto;
+}
+
+.tile-desc {
+ 	text-align: center;
+ 	color:	#F0E68C;
+}
+
+.tile-desc:hover {
+	display: block;
+}
+
+.tile-image {
+	border: 2px solid  #008080;
+}
 
 .maintab{
 	transition: 0.8;
-}
-
-.homie{
-	text-align: center;
 }
 
 .pagination{
@@ -122,7 +134,6 @@ ul li:hover ul li{
 }
 
 .pagination a{
-/*	float: left;*/
 	padding: 8px 16px;
 	text-decoration: none;
 	border: 1px solid #008080;
@@ -152,4 +163,26 @@ ul li:hover ul li{
 .noofpg{
 	text-align: center;
 	background-color: #008080;
+}
+.beach{
+	color: #7CFC00;
+	text-align: center;
+}
+.shape{
+	font-size: 20px;
+}
+.bich{
+	font-size: 20px;
+}
+
+.disclaimer{
+	color: red;
+	text-align: center;
+	font-family: arial;
+	font-size: 20;
+}
+
+.instruction-{
+	color: #7CFC00;
+	text-align: center;	
 }
